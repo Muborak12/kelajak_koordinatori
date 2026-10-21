@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="uz"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Kelajak Lideri: Yakka Kurashdan — Yengilmas Jamoaga | Abdumannonov Bekmurod</title>
+<!-- Tailwind CSS v3 with Plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Custom Configuration -->
+<script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#F0F7FF',
+              100: '#E0EFFF',
+              200: '#BAE0FD',
+              300: '#7CD1FB',
+              400: '#38BDF8',
+              500: '#0284C7',
+              600: '#0369A1',
+              700: '#075985',
+              800: '#0C4A6E',
+              900: '#082F49',
+              950: '#0B132B'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+            display: ['Cabinet Grotesk', 'Inter', 'sans-serif']
+          },
+          animation: {
+            'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            'float-slow': 'float 6s ease-in-out infinite',
+            'glow': 'glow 4s ease-in-out infinite alternate',
+          },
+          keyframes: {
+            float: {
+              '0%, 100%': { transform: 'translateY(0px)' },
+              '50%': { transform: 'translateY(-10px)' },
+            },
+            glow: {
+              '0%': { opacity: '0.4' },
+              '100%': { opacity: '0.8' },
+            }
+          }
+        }
+      }
+    };
+  </script>
+<!-- Google Fonts Preconnect -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;family=Outfit:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Core Theme & Visual Base Styles -->
+<style data-purpose="typography">
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    h1, h2, h3, .font-heading {
+      font-family: 'Outfit', sans-serif;
+    }
+  </style>
+<!-- Glassmorphism & Atmospheric Custom Styles -->
+<style data-purpose="glassmorphism">
+    .glass-canvas {
+      background: rgba(255, 255, 255, 0.65);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(56, 189, 248, 0.22);
+    }
+    .dark .glass-canvas {
+      background: rgba(11, 19, 43, 0.72);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border: 1px solid rgba(56, 189, 248, 0.18);
+    }
+    .glass-card-accent {
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.85) 0%, rgba(224, 239, 255, 0.5) 100%);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      box-shadow: 0 10px 30px -10px rgba(2, 132, 199, 0.08);
+    }
+    .dark .glass-card-accent {
+      background: linear-gradient(135deg, rgba(15, 23, 42, 0.8) 0%, rgba(11, 19, 43, 0.9) 100%);
+      backdrop-filter: blur(14px);
+      border: 1px solid rgba(56, 189, 248, 0.2);
+      box-shadow: 0 10px 35px -10px rgba(0, 0, 0, 0.45);
+    }
+    .glow-cyan-aura {
+      box-shadow: 0 0 45px -5px rgba(56, 189, 248, 0.35);
+    }
+    .text-gradient-cyan {
+      background: linear-gradient(135deg, #0284C7 0%, #0369A1 50%, #082F49 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .dark .text-gradient-cyan {
+      background: linear-gradient(135deg, #7CD1FB 0%, #38BDF8 60%, #FFFFFF 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+<!-- Interactive Utility Styles -->
+<style data-purpose="micro-interactions">
+    .nav-pill-active {
+      background: #0284C7;
+      color: #FFFFFF !important;
+      box-shadow: 0 0 15px rgba(2, 132, 199, 0.5);
+    }
+    .scroll-progress-bar {
+      height: 4px;
+      background: linear-gradient(90deg, #38BDF8, #0284C7, #0369A1);
+      width: 0%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 100;
+      transition: width 0.1s ease-out;
+    }
+  </style>
+</head>
+<body class="bg-[#F0F7FF] text-slate-800 dark:bg-[#0B132B] dark:text-slate-100 transition-colors duration-500 overflow-x-hidden selection:bg-cyan-500 selection:text-white">
+<!-- BEGIN: ScrollProgressBar -->
+<div aria-hidden="true" class="scroll-progress-bar" id="scrollProgressBar"></div>
+<!-- END: ScrollProgressBar -->
+<!-- BEGIN: AmbientBackgroundGradients -->
+<!-- Atmospheric decorative glowing blurred spheres -->
+<div aria-hidden="true" class="fixed inset-0 pointer-events-none overflow-hidden -z-10">
+<div class="absolute -top-32 -left-32 w-96 h-96 rounded-full bg-cyan-300/30 dark:bg-cyan-600/15 blur-3xl animate-pulse-slow"></div>
+<div class="absolute top-1/3 -right-40 w-[30rem] h-[30rem] rounded-full bg-blue-400/20 dark:bg-blue-600/15 blur-3xl"></div>
+<div class="absolute bottom-1/4 left-1/4 w-[36rem] h-[36rem] rounded-full bg-sky-300/25 dark:bg-sky-500/10 blur-[110px]"></div>
+</div>
+<!-- END: AmbientBackgroundGradients -->
+<!-- BEGIN: FloatingControlHUD -->
+<!-- Top Floating Glass Progress, Quick Section Switcher, and Theme Toggle -->
+<header class="fixed top-4 left-0 right-0 z-50 flex justify-center px-3 sm:px-6 pointer-events-none">
+<div class="pointer-events-auto flex items-center gap-1.5 sm:gap-2.5 px-3 py-2 sm:px-4 sm:py-2.5 rounded-full glass-canvas shadow-xl shadow-sky-500/10 border border-sky-300/40 dark:border-sky-500/30 transition-all duration-300 hover:border-sky-400">
+<!-- Logo / Identity Marker -->
+<a class="flex items-center gap-2 pr-2 border-r border-sky-300/40 dark:border-sky-700/50 group" href="#hero" title="Bosh sahifa">
+<span class="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-gradient-to-tr from-sky-600 to-cyan-400 flex items-center justify-center text-white font-bold text-xs shadow-md shadow-sky-500/30 group-hover:scale-105 transition-transform">
+          KL
+        </span>
+<span class="hidden md:inline font-bold text-xs uppercase tracking-wider text-sky-950 dark:text-sky-100">
+          Bekmurod
+        </span>
+</a>
+<!-- Numerical Section Jump Pills (1-10) -->
+<nav aria-label="Section Quick Jump" class="flex items-center gap-1 sm:gap-1.5 overflow-x-auto max-w-[200px] sm:max-w-none no-scrollbar py-0.5">
+<a class="nav-jump-btn w-6 h-6 sm:w-7 sm:h-7 rounded-full text-[11px] font-semibold flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-sky-100 dark:hover:bg-slate-800 transition-colors" data-section="hero" href="#hero" title="1. Kirish">1</a>
+<a class="nav-jump-btn w-6 h-6 sm:w-7 sm:h-7 rounded-full text-[11px] font-semibold flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-sky-100 dark:hover:bg-slate-800 transition-colors" data-section="missiya" href="#missiya" title="2. Men Haqimda">2</a>
+<a class="nav-jump-btn w-6 h-6 sm:w-7 sm:h-7 rounded-full text-[11px] font-semibold flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-sky-100 dark:hover:bg-slate-800 transition-colors" data-section="isbotlar" href="#isbotlar" title="3. Amaliy Isbotlar">3</a>
+<a class="nav-jump-btn w-6 h-6 sm:w-7 sm:h-7 rounded-full text-[11px] font-semibold flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-sky-100 dark:hover:bg-slate-800 transition-colors" data-section="falsafa" href="#falsafa" title="4. Do'stlik Falsafasi">4</a>
+<a class="nav-jump-btn w-6 h-6 sm:w-7 sm:h-7 rounded-full text-[11px] font-semibold flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-sky-100 dark:hover:bg-slate-800 transition-colors" data-section="intellekt" href="#intellekt" title="5. Speaking Club">5</a>
+<a class="nav-jump-btn w-6 h-6 sm:w-7 sm:h-7 rounded-full text-[11px] font-semibold flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-sky-100 dark:hover:bg-slate-800 transition-colors" data-section="tashabbus" href="#tashabbus" title="6. Tuman Rejasi">6</a>
+<a class="nav-jump-btn w-6 h-6 sm:w-7 sm:h-7 rounded-full text-[11px] font-semibold flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-sky-100 dark:hover:bg-slate-800 transition-colors" data-section="galereya" href="#galereya" title="7. Dalillar Galereyasi">7</a>
+<a class="nav-jump-btn w-6 h-6 sm:w-7 sm:h-7 rounded-full text-[11px] font-semibold flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-sky-100 dark:hover:bg-slate-800 transition-colors" data-section="sinergiya" href="#sinergiya" title="8. Hamohanglik">8</a>
+<a class="nav-jump-btn w-6 h-6 sm:w-7 sm:h-7 rounded-full text-[11px] font-semibold flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-sky-100 dark:hover:bg-slate-800 transition-colors" data-section="yol-xaritasi" href="#yol-xaritasi" title="9. 100 Kunlik Dastur">9</a>
+<a class="nav-jump-btn w-6 h-6 sm:w-7 sm:h-7 rounded-full text-[11px] font-semibold flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-sky-100 dark:hover:bg-slate-800 transition-colors" data-section="manifest" href="#manifest" title="10. Manifest">10</a>
+</nav>
+<!-- Divider -->
+<div class="h-4 w-[1px] bg-sky-300/50 dark:bg-sky-700/60 mx-0.5"></div>
+<!-- Theme Switcher Button -->
+<button aria-label="Rang rejimini almashtirish" class="w-7 h-7 sm:w-8 sm:h-8 rounded-full flex items-center justify-center text-sky-800 dark:text-sky-300 hover:bg-sky-100 dark:hover:bg-slate-800/90 transition-transform active:scale-90" id="themeToggleBtn">
+<!-- Sun Icon -->
+<svg class="w-4 h-4 hidden dark:block" fill="none" id="sunIcon" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+<!-- Moon Icon -->
+<svg class="w-4 h-4 block dark:hidden" fill="none" id="moonIcon" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+<!-- Status Indicator Pill -->
+<div class="hidden lg:flex items-center gap-1.5 pl-1.5 pr-2 py-1 bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 rounded-full text-[10px] font-semibold border border-emerald-500/20">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+        Faol Dastur
+      </div>
+</div>
+</header>
+<!-- END: FloatingControlHUD -->
+<main class="w-full">
+<!-- BEGIN: Section1_HeroCover -->
+<section class="relative min-h-screen pt-28 pb-20 flex items-center justify-center px-4 sm:px-6 lg:px-8" data-purpose="hero-cover" id="hero">
+<div class="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Hero Text Content -->
+<div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+<!-- Eyebrow Badge -->
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-canvas border border-sky-400/40 shadow-sm shadow-sky-500/10">
+<span class="relative flex h-2.5 w-2.5">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-sky-500"></span>
+</span>
+<span class="text-xs font-bold tracking-wide uppercase text-sky-800 dark:text-sky-300">
+              Maktab &amp; Tuman Bosh Sardori | Kelajak Lideri
+            </span>
+</div>
+<!-- Main Title -->
+<h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.12]">
+            Kelajak Lideri: <br/>
+<span class="text-gradient-cyan">Yakka Kurashdan — Yengilmas Jamoaga</span>
+</h1>
+<!-- Subtitle -->
+<p class="text-base sm:text-lg md:text-xl text-slate-600 dark:text-slate-300 max-w-2xl leading-relaxed mx-auto lg:mx-0">
+            Barcha koordinatorlik yo'nalishlarini yagona maqsad sari birlashtiruvchi, yoshlarning haqiqiy potensialini ochuvchi strategiya.
+          </p>
+<!-- Leader Profile Identity Pill -->
+<div class="p-4 sm:p-5 rounded-2xl glass-card-accent border-l-4 border-l-sky-500 flex flex-col sm:flex-row items-center sm:items-start gap-4 text-left">
+<div class="w-12 h-12 rounded-xl bg-gradient-to-br from-sky-500 to-blue-700 flex items-center justify-center text-white font-black text-xl shadow-md shrink-0">
+              AB
+            </div>
+<div>
+<div class="font-extrabold text-base sm:text-lg text-slate-900 dark:text-white flex items-center gap-2">
+                Abdumannonov Bekmurod
+                <span class="inline-flex items-center text-[10px] font-bold px-2 py-0.5 rounded-full bg-sky-500/10 text-sky-600 dark:text-sky-400 border border-sky-400/30">
+                  Bosh Koordinator
+                </span>
+</div>
+<p class="text-xs text-sky-700 dark:text-sky-300 font-medium">348-sonli umumta'lim maktabi va Bektemir tumani liderlik platformasi</p>
+<p class="mt-2 text-xs sm:text-sm italic text-slate-600 dark:text-slate-300">
+                «Kuch — yakka qobiliyatda emas, jamoaviy birdamlik va o'zaro ishonchda!»
+              </p>
+</div>
+</div>
+<!-- Action Buttons -->
+<div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-2">
+<a class="px-6 py-3.5 rounded-xl bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-600 hover:to-blue-700 text-white font-semibold text-sm shadow-lg shadow-sky-500/25 transition-all hover:scale-105 active:scale-95 flex items-center gap-2" href="#missiya">
+<span>Dastur bilan tanishish</span>
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</a>
+<a class="px-6 py-3.5 rounded-xl glass-canvas hover:bg-sky-100/60 dark:hover:bg-slate-800 text-slate-800 dark:text-slate-200 font-semibold text-sm border border-sky-300/40 transition-all hover:scale-105 active:scale-95 flex items-center gap-2" href="#isbotlar">
+<svg class="w-4 h-4 text-sky-500" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span>Jonli Isbotlar</span>
+</a>
+</div>
+</div>
+<!-- Hero Visual Imagery Card -->
+<div class="lg:col-span-5 relative">
+<!-- Ambient Glow under photo -->
+<div class="absolute -inset-2 bg-gradient-to-r from-sky-400 to-blue-600 rounded-3xl blur-2xl opacity-30 dark:opacity-40 animate-pulse-slow"></div>
+<div class="relative rounded-3xl overflow-hidden glass-canvas p-2.5 sm:p-3 border border-sky-300/50 shadow-2xl">
+<div class="relative overflow-hidden rounded-2xl aspect-[4/3] sm:aspect-[16/10] lg:aspect-[4/5]">
+<img alt="Editorial high-definition candid photo of a confident Central Asian teenage student leader (Abdumannonov Bekmurod) standing with open posture in a bright modern school hall, surrounded by diverse smiling high school classmates in modern navy and white school uniforms" class="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700" loading="eager" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2kCejzZrf03-XHlJpg1JZ-oZbEDPa_iYKYPKILcK2YVTC31qr5DcIuNwkJij3RXuqrTQktHa9uRoZQW9ot_NqE3sXSh5KrkozY2fmVTLA9O21QsoE1hqJGf6Tiezm4SzD0aZ1y8qlcv4DUtsycQZ9pJ2N3k69zsa-WV2Z7oXhaCghfx2XLvkWV-qHoO-1wfAgfpXrYC8ChKXQ1sL_mjqXWONR37NobL28oHOO_LTHsnJtMgpY_Erp"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+<!-- Floating Glass Badge on top of image -->
+<div class="absolute bottom-4 left-4 right-4 p-3 rounded-xl glass-canvas border border-white/20 text-white backdrop-blur-md">
+<div class="flex items-center justify-between">
+<div>
+<span class="text-[10px] uppercase font-bold tracking-wider text-cyan-300">Maktab Faxri</span>
+<h2 class="text-sm font-bold text-white">Yagona Maqsad, Yagona Oila</h2>
+</div>
+<div class="flex items-center gap-1 bg-white/20 px-2 py-1 rounded-lg text-xs font-semibold">
+<span class="text-emerald-400">★</span> 348-Maktab
+                  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Section1_HeroCover -->
+<!-- BEGIN: Section2_AboutAndMission -->
+<section class="py-24 px-4 sm:px-6 lg:px-8 border-t border-sky-200/50 dark:border-sky-900/40 relative" data-purpose="about-and-mission" id="missiya">
+<div class="max-w-7xl mx-auto space-y-14">
+<!-- Header Text -->
+<div class="text-center max-w-3xl mx-auto space-y-3">
+<div class="inline-block text-xs font-bold uppercase tracking-wider text-sky-600 dark:text-sky-400 bg-sky-100/60 dark:bg-sky-900/40 px-3 py-1 rounded-full">
+            Missiya &amp; Mas'uliyat
+          </div>
+<h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+            Koordinatorlar Yetakchisi Kim?
+          </h2>
+<p class="text-slate-600 dark:text-slate-300 text-sm sm:text-base">
+            Bosh sardor — buyruq beruvchi emas, balki har bir koordinatorlik tarmog'ini do'stona, ochiq va samarali tizimga aylantiruvchi harakatlantiruvchi kuchdir.
+          </p>
+</div>
+<!-- 3-Column Bento Grid Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+<!-- Bento Card 1: Sinergiya Markazi -->
+<div class="glass-card-accent p-6 sm:p-8 rounded-3xl relative group hover:-translate-y-1.5 transition-all duration-300">
+<div class="w-14 h-14 rounded-2xl bg-sky-500/10 dark:bg-sky-500/20 text-sky-600 dark:text-sky-300 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+<svg class="w-7 h-7" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Sinergiya Markazi</h3>
+<p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
+              Ta'lim, Ekologiya, Sport, Madaniyat va IT koordinatorlarini alohida tarqoq holda emas, balki bir-birini quvvatlovchi yagona mexanizm sifatida harakatga keltirish.
+            </p>
+<div class="mt-6 pt-4 border-t border-sky-200/40 dark:border-sky-800/40 flex items-center gap-2 text-xs font-semibold text-sky-600 dark:text-sky-400">
+<span>Yagona Ekologik Tizim</span>
+<span>→</span>
+</div>
+</div>
+<!-- Bento Card 2: O'quvchilar Ko'prigi -->
+<div class="glass-card-accent p-6 sm:p-8 rounded-3xl relative group hover:-translate-y-1.5 transition-all duration-300 ring-2 ring-sky-400/40 dark:ring-sky-500/40 shadow-xl shadow-sky-500/10">
+<div class="absolute -top-3.5 right-6 px-3 py-1 bg-gradient-to-r from-sky-500 to-blue-600 text-white text-[11px] font-bold rounded-full uppercase tracking-wider">
+              Asosiy Poydevor
+            </div>
+<div class="w-14 h-14 rounded-2xl bg-cyan-500/10 dark:bg-cyan-500/20 text-cyan-600 dark:text-cyan-300 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+<svg class="w-7 h-7" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">O'quvchilar Ko'prigi</h3>
+<p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
+              Maktab ma'muriyati, o'qituvchilar va o'quvchilar o'rtasida to'siqlarsiz, ochiq, erkin va do'stona muloqot maydonini ta'minlash. O'quvchi ovozini birinchi o'ringa qo'yish.
+            </p>
+<div class="mt-6 pt-4 border-t border-sky-200/40 dark:border-sky-800/40 flex items-center gap-2 text-xs font-semibold text-cyan-600 dark:text-cyan-400">
+<span>Tengdoshdan Tengdoshga</span>
+<span>→</span>
+</div>
+</div>
+<!-- Bento Card 3: Doimiy Rag'bat -->
+<div class="glass-card-accent p-6 sm:p-8 rounded-3xl relative group hover:-translate-y-1.5 transition-all duration-300">
+<div class="w-14 h-14 rounded-2xl bg-blue-500/10 dark:bg-blue-500/20 text-blue-600 dark:text-blue-300 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+<svg class="w-7 h-7" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Doimiy Rag'bat</h3>
+<p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
+              Har bir tashabbuskor o'quvchining kichik mehnati va g'oyasini o'z vaqtida ko'rish, jamoat oldida e'tirof etish va ularni yanada katta cho'qqilarga ilhomlantirish.
+            </p>
+<div class="mt-6 pt-4 border-t border-sky-200/40 dark:border-sky-800/40 flex items-center gap-2 text-xs font-semibold text-blue-600 dark:text-blue-400">
+<span>E'tirof va Qadrlash</span>
+<span>→</span>
+</div>
+</div>
+</div>
+<!-- Interactive Metrics Banner -->
+<div class="rounded-3xl glass-canvas p-6 sm:p-8 grid grid-cols-1 sm:grid-cols-3 gap-6 text-center divide-y sm:divide-y-0 sm:divide-x divide-sky-200/50 dark:divide-sky-800/50">
+<div class="pt-4 sm:pt-0">
+<div class="text-3xl sm:text-4xl font-extrabold text-sky-600 dark:text-sky-400" id="counterCoord">5+</div>
+<p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 font-medium mt-1">Koordinatorlik Yo'nalishlari</p>
+</div>
+<div class="pt-4 sm:pt-0">
+<div class="text-3xl sm:text-4xl font-extrabold text-sky-600 dark:text-sky-400" id="counterStudents">1200+</div>
+<p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 font-medium mt-1">O'quvchilar Jonli Qamrovi</p>
+</div>
+<div class="pt-4 sm:pt-0">
+<div class="text-3xl sm:text-4xl font-extrabold text-sky-600 dark:text-sky-400">100%</div>
+<p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 font-medium mt-1">Shaffof va Ochiq Muloqot</p>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Section2_AboutAndMission -->
+<!-- BEGIN: Section3_PracticalEvidence -->
+<section class="py-24 px-4 sm:px-6 lg:px-8 relative" data-purpose="practical-evidence" id="isbotlar">
+<div class="max-w-7xl mx-auto space-y-12">
+<!-- Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-sky-200/50 dark:border-sky-900/40 pb-8">
+<div>
+<div class="inline-block text-xs font-bold uppercase tracking-wider text-sky-600 dark:text-sky-400 bg-sky-100/60 dark:bg-sky-900/40 px-3 py-1 rounded-full mb-3">
+              Amaliy Natijalar
+            </div>
+<h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+              348-Maktabdagi Jonli Natijalar va Dalillar
+            </h2>
+<p class="text-slate-600 dark:text-slate-300 text-sm sm:text-base mt-2 max-w-2xl">
+              Biz faqat qog'ozda yozmadik — sinflar orasidagi sovuqlikni amaliy o'yinlar va jamoaviy mashg'ulotlar bilan do'stlikka aylantirdik.
+            </p>
+</div>
+<!-- Quick Metric Pill Cards -->
+<div class="flex items-center gap-3">
+<div class="px-4 py-2.5 rounded-2xl glass-canvas border border-sky-300/40 text-center">
+<span class="block text-xl font-bold text-sky-600 dark:text-sky-400">+85%</span>
+<span class="text-[11px] text-slate-500 dark:text-slate-400">Faollik O'sishi</span>
+</div>
+<div class="px-4 py-2.5 rounded-2xl glass-canvas border border-sky-300/40 text-center">
+<span class="block text-xl font-bold text-sky-600 dark:text-sky-400">40+</span>
+<span class="text-[11px] text-slate-500 dark:text-slate-400">Tadbirlar Soni</span>
+</div>
+</div>
+</div>
+<!-- Split Grid Photo Evidence -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+<!-- Evidence 1: Speaking Club & Classes -->
+<div class="glass-canvas rounded-3xl overflow-hidden border border-sky-300/40 flex flex-col group hover:shadow-2xl hover:shadow-sky-500/10 transition-all duration-300">
+<div class="relative aspect-[16/10] overflow-hidden">
+<img alt="Realistic dynamic candid shot of Uzbek high school students actively participating in an English speaking club workshop inside a modern cozy classroom, sitting in a friendly circle with whiteboards, smiling, debating passionately" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCr4bA96s0xZi5Hqu9WpbDpH4QadeE9yeqKxu8pGX243S97rraC4Xz1a3jGk-8fS82zl0LXheHym8YWcIPqLs5ZLDymPS-PelKCbF3KKBpfFz0I1aoNWaN81jL9PoLnDQxE_9wJtQLaL-XoJBvZqjYtStt7TS1uK14cHQjPsbFzkr6h3kTdE8hjvXvNoKTxvmO6NOnR9zFxPBqCMe1DQLd3Z0lclUUR2dpyqKGAThWeKpcC2vf3hQ8R"/>
+<div class="absolute top-4 left-4 px-3 py-1 bg-sky-600 text-white text-xs font-bold rounded-lg shadow">
+                Speaking Club &amp; Debatlar
+              </div>
+</div>
+<div class="p-6 sm:p-8 flex-1 flex flex-col justify-between space-y-4">
+<div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">
+                  Har Haftalik Erkin Muloqot va Debatlar
+                </h3>
+<p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                  O'quvchilar darsdan so'ng doira bo'lib o'tirib, o'zaro ingliz tilida erkin mavzularda fikr almashadilar. Hech qanday baholash bosimisiz, tengma-teng muloqot orqali tildagi qo'rquv yengildi.
+                </p>
+</div>
+<div class="flex items-center justify-between pt-4 border-t border-sky-200/40 dark:border-sky-800/40 text-xs">
+<span class="font-semibold text-slate-700 dark:text-slate-300">Har hafta: Juma va Shanba</span>
+<span class="text-sky-600 dark:text-sky-400 font-bold">120+ Doimiy Ishtirokchi</span>
+</div>
+</div>
+</div>
+<!-- Evidence 2: Team Building Games -->
+<div class="glass-canvas rounded-3xl overflow-hidden border border-sky-300/40 flex flex-col group hover:shadow-2xl hover:shadow-sky-500/10 transition-all duration-300">
+<div class="relative aspect-[16/10] overflow-hidden">
+<img alt="Realistic energetic scene of teenagers in a high school courtyard engaged in an outdoor team-building trust game, students holding hands in a circle laughing and celebrating success" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAlolc3bGLyBTv-TjU2cwYy15f8hsndou2ESXF6ga-Oo0DTtWNYh4m7i7Lni4uLtQ-buJrYhRFqhhUIUQngV9ZCgVuzmd-xylDryGcr9Vf1EtCwf7zeQQjoM6A0LdggYTHxz7gphZpe1oS8ZvlJc48QQZVW7LDdn4-qS8xCyuEVZrLEJei2NAALGwH6ZFQFhRaIp6SHUgjxyo4RxM5yYIH-DWzEyK9lfxq4XGHqa3pAMPMmF2kMuFl"/>
+<div class="absolute top-4 left-4 px-3 py-1 bg-cyan-600 text-white text-xs font-bold rounded-lg shadow">
+                Ochiq Havoda Team-Building
+              </div>
+</div>
+<div class="p-6 sm:p-8 flex-1 flex flex-col justify-between space-y-4">
+<div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">
+                  Psixologik To'siqlarni Sindiruvchi Kvestlar
+                </h3>
+<p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                  Maktab hovlisida turli sinflarni aralashtirgan holda "Ishonch halqasi" va jamoaviy topshiriqlar tashkil etildi. Natijada sinflar orasidagi tortinchoqlik va ajralish to'liq yo'qoldi.
+                </p>
+</div>
+<div class="flex items-center justify-between pt-4 border-t border-sky-200/40 dark:border-sky-800/40 text-xs">
+<span class="font-semibold text-slate-700 dark:text-slate-300">Qamrov: 7-11 Sinf O'quvchilari</span>
+<span class="text-cyan-600 dark:text-cyan-400 font-bold">0 ta Chetda Qolgan Bola</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Section3_PracticalEvidence -->
+<!-- BEGIN: Section4_PhilosophyOfFriendship -->
+<section class="py-24 px-4 sm:px-6 lg:px-8 border-t border-sky-200/50 dark:border-sky-900/40 relative" data-purpose="philosophy-of-friendship" id="falsafa">
+<div class="max-w-7xl mx-auto space-y-12">
+<div class="text-center max-w-3xl mx-auto space-y-3">
+<div class="inline-block text-xs font-bold uppercase tracking-wider text-sky-600 dark:text-sky-400 bg-sky-100/60 dark:bg-sky-900/40 px-3 py-1 rounded-full">
+            Falsafa &amp; Konseptsiya
+          </div>
+<h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+            Nega Aynan Jamoaviy Tuyg'u?
+          </h2>
+<p class="text-slate-600 dark:text-slate-300 text-sm sm:text-base">
+            Yakkalanish va guruhbozlikka qarshi eng kuchli vosita — bu har bir o'quvchiga o'zini qadrli his qildirishdir.
+          </p>
+</div>
+<!-- Dynamic Before / After Contrast Cards -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+<!-- Muammo: Sovuq Maktab Muhiti -->
+<div class="p-8 rounded-3xl glass-canvas border-2 border-dashed border-rose-300/60 dark:border-rose-900/50 space-y-5 bg-rose-50/20 dark:bg-rose-950/10">
+<div class="flex items-center gap-3">
+<span class="w-10 h-10 rounded-xl bg-rose-100 dark:bg-rose-900/40 text-rose-600 dark:text-rose-400 flex items-center justify-center font-bold text-lg">✕</span>
+<div>
+<h3 class="text-lg font-bold text-rose-700 dark:text-rose-300">Eski Holat: Yakkalangan Muhit</h3>
+<p class="text-xs text-rose-500">Biz kurashayotgan salbiy holatlar</p>
+</div>
+</div>
+<ul class="space-y-3 text-sm text-slate-700 dark:text-slate-300">
+<li class="flex items-start gap-3">
+<span class="text-rose-500 font-bold mt-0.5">•</span>
+<span>Sinflar o'rtasida o'zaro begonalashuv va guruhbozlik mavjudligi.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="text-rose-500 font-bold mt-0.5">•</span>
+<span>Tortinchoq yoki o'ziga ishonchsiz o'quvchilarning e'tibordan chetda qolib ketishi.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="text-rose-500 font-bold mt-0.5">•</span>
+<span>Tadbirlarning faqat sanoqli bir xil faol o'quvchilar atrofida cheklanib qolishi.</span>
+</li>
+</ul>
+</div>
+<!-- Yechim: Bizning Jonli Jamoamiz -->
+<div class="p-8 rounded-3xl glass-card-accent border-2 border-emerald-400/60 dark:border-emerald-600/50 space-y-5 bg-emerald-50/20 dark:bg-emerald-950/10 shadow-xl shadow-emerald-500/5">
+<div class="flex items-center gap-3">
+<span class="w-10 h-10 rounded-xl bg-emerald-100 dark:bg-emerald-900/40 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold text-lg">✓</span>
+<div>
+<h3 class="text-lg font-bold text-emerald-700 dark:text-emerald-300">Bizning Yechim: Jonli Jamoa</h3>
+<p class="text-xs text-emerald-600 dark:text-emerald-400">Yaratilgan yangi do'stlik muhiti</p>
+</div>
+</div>
+<ul class="space-y-3 text-sm text-slate-700 dark:text-slate-300">
+<li class="flex items-start gap-3">
+<span class="text-emerald-500 font-bold mt-0.5">•</span>
+<span>Aralash tarkibdagi "Do'stlik Ligalari" orqali har bir sinfdan do'stlar orttirish.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="text-emerald-500 font-bold mt-0.5">•</span>
+<span>Tengdosh murabbiylik: Kuchli o'quvchilar tortinchoq tengdoshlariga yordam berishi.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="text-emerald-500 font-bold mt-0.5">•</span>
+<span>Barcha o'quvchilar bitta katta va bir-birini qo'llab-quvvatlovchi oilaga aylanadi.</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Section4_PhilosophyOfFriendship -->
+<!-- BEGIN: Section5_IntellectualGrowth -->
+<section class="py-24 px-4 sm:px-6 lg:px-8 relative" data-purpose="intellectual-growth" id="intellekt">
+<div class="max-w-7xl mx-auto space-y-12">
+<div class="text-center max-w-3xl mx-auto space-y-3">
+<div class="inline-block text-xs font-bold uppercase tracking-wider text-sky-600 dark:text-sky-400 bg-sky-100/60 dark:bg-sky-900/40 px-3 py-1 rounded-full">
+            Global Salohiyat
+          </div>
+<h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+            Til va Fikr Erkinligi: Global Dunyoga Ochiq Muloqot
+          </h2>
+<p class="text-slate-600 dark:text-slate-300 text-sm sm:text-base">
+            O'quvchi xalqaro miqyosda raqobatbardosh bo'lishi uchun faqat fanlarni bilishi yetarli emas — erkin so'zlay olishi va o'z nuqtai nazarini mardona himoya qilishi shart.
+          </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+<!-- Card 1 -->
+<div class="glass-canvas p-7 rounded-3xl border border-sky-300/40 hover:border-sky-400 transition-all hover:scale-105 duration-300 flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-2xl bg-cyan-500/10 dark:bg-cyan-500/20 text-cyan-600 dark:text-cyan-400 flex items-center justify-center text-xl font-bold mb-5">
+                01
+              </div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Native Speaker Circles</h3>
+<p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                Zamonaviy interaktiv mavzular, mashhur kinolar tahlili, jonli viktorinalar va xalqaro o'quv materiallari orqali ingliz tilida ravon gapirish ko'nikmasi.
+              </p>
+</div>
+<div class="mt-6 flex items-center gap-2 text-xs font-semibold text-cyan-600 dark:text-cyan-400">
+<span class="w-2 h-2 rounded-full bg-cyan-500"></span>
+<span>Haftalik Ochiq Sessiyalar</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="glass-canvas p-7 rounded-3xl border border-sky-300/40 hover:border-sky-400 transition-all hover:scale-105 duration-300 flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-2xl bg-sky-500/10 dark:bg-sky-500/20 text-sky-600 dark:text-sky-400 flex items-center justify-center text-xl font-bold mb-5">
+                02
+              </div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">TED-Ed Bektemir</h3>
+<p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                Har bir o'quvchi o'zining noyob g'oyasi, ilmiy loyihasi yoki hayotiy tajribasini maktab sahnasida omma oldida ishonch bilan taqdim etadigan notiqlik maydoni.
+              </p>
+</div>
+<div class="mt-6 flex items-center gap-2 text-xs font-semibold text-sky-600 dark:text-sky-400">
+<span class="w-2 h-2 rounded-full bg-sky-500"></span>
+<span>Sahna va Notiqlik San'ati</span>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="glass-canvas p-7 rounded-3xl border border-sky-300/40 hover:border-sky-400 transition-all hover:scale-105 duration-300 flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-2xl bg-blue-500/10 dark:bg-blue-500/20 text-blue-600 dark:text-blue-400 flex items-center justify-center text-xl font-bold mb-5">
+                03
+              </div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Karl Popper Debat Klubi</h3>
+<p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                Dalillar bilan ishlash, tanqidiy fikrlash, raqibni hurmat bilan tinglash hamda o'z dalillarini asosli himoya qilish madaniyatini shakllantirish.
+              </p>
+</div>
+<div class="mt-6 flex items-center gap-2 text-xs font-semibold text-blue-600 dark:text-blue-400">
+<span class="w-2 h-2 rounded-full bg-blue-500"></span>
+<span>Intellektual Madaniyat</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Section5_IntellectualGrowth -->
+<!-- BEGIN: Section6_DistrictInitiatives -->
+<section class="py-24 px-4 sm:px-6 lg:px-8 border-t border-sky-200/50 dark:border-sky-900/40 relative" data-purpose="district-initiatives" id="tashabbus">
+<div class="max-w-7xl mx-auto space-y-12">
+<div class="text-center max-w-3xl mx-auto space-y-3">
+<div class="inline-block text-xs font-bold uppercase tracking-wider text-sky-600 dark:text-sky-400 bg-sky-100/60 dark:bg-sky-900/40 px-3 py-1 rounded-full">
+            Keng Ko'lamli Reja
+          </div>
+<h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+            Bektemir Tumani Maktablarini Yagona Jamoaga Aylantirish Rejasi
+          </h2>
+<p class="text-slate-600 dark:text-slate-300 text-sm sm:text-base">
+            "Agar men tuman miqyosidagi lider bo'lsam, maktablar o'rtasidagi sovuq raqobatni hamkorlik va do'stona sinergiyaga almashtiraman!"
+          </p>
+</div>
+<!-- 4-Column Futuristic Roadmap Matrix -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="p-6 rounded-3xl glass-card-accent border border-sky-300/40 flex flex-col justify-between hover:-translate-y-2 transition-transform duration-300">
+<div>
+<div class="text-xs font-extrabold text-sky-600 dark:text-sky-400 tracking-wider uppercase mb-2">1-Tashabbus</div>
+<h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Tuman Koordinatorlar Kengashi</h3>
+<p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                Tuman miqyosidagi barcha umumta'lim maktab sardorlarining oylik ochiq tajriba almashinuvi va yagona tashabbuslar forumi.
+              </p>
+</div>
+<div class="mt-6 flex items-center gap-1.5 text-xs text-sky-600 dark:text-sky-300 font-semibold">
+<span class="w-2 h-2 rounded-full bg-sky-500"></span> Hamkorlik Maydoni
+            </div>
+</div>
+<div class="p-6 rounded-3xl glass-card-accent border border-sky-300/40 flex flex-col justify-between hover:-translate-y-2 transition-transform duration-300">
+<div>
+<div class="text-xs font-extrabold text-sky-600 dark:text-sky-400 tracking-wider uppercase mb-2">2-Tashabbus</div>
+<h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Aralash Jamoalar Chempionati</h3>
+<p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                Musobaqalarda maktablar alohida kurashmaydi — har bir jamoada turli maktab o'quvchilari birlashib intellektual topshiriqlarni yechadi.
+              </p>
+</div>
+<div class="mt-6 flex items-center gap-1.5 text-xs text-sky-600 dark:text-sky-300 font-semibold">
+<span class="w-2 h-2 rounded-full bg-cyan-500"></span> Do'stona Raqobat
+            </div>
+</div>
+<div class="p-6 rounded-3xl glass-card-accent border border-sky-300/40 flex flex-col justify-between hover:-translate-y-2 transition-transform duration-300">
+<div>
+<div class="text-xs font-extrabold text-sky-600 dark:text-sky-400 tracking-wider uppercase mb-2">3-Tashabbus</div>
+<h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Tuman Speaking Festival</h3>
+<p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                Barcha tuman maktablari o'rtasida ochiq osmon ostida xorijiy tillar va liderlik festivali: interaktiv viktorinalar va networking.
+              </p>
+</div>
+<div class="mt-6 flex items-center gap-1.5 text-xs text-sky-600 dark:text-sky-300 font-semibold">
+<span class="w-2 h-2 rounded-full bg-blue-500"></span> Ochiq Osmon Ostida
+            </div>
+</div>
+<div class="p-6 rounded-3xl glass-card-accent border border-sky-300/40 flex flex-col justify-between hover:-translate-y-2 transition-transform duration-300">
+<div>
+<div class="text-xs font-extrabold text-sky-600 dark:text-sky-400 tracking-wider uppercase mb-2">4-Tashabbus</div>
+<h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Kiber &amp; Mantiq Hamkorligi</h3>
+<p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                Mantiqiy shaxmat, kibersport va dasturlash orqali jamoaviy strategik hamkorlikni o'rgatuvchi zamonaviy turnirlar.
+              </p>
+</div>
+<div class="mt-6 flex items-center gap-1.5 text-xs text-sky-600 dark:text-sky-300 font-semibold">
+<span class="w-2 h-2 rounded-full bg-indigo-500"></span> Raqamli Salohiyat
+            </div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Section6_DistrictInitiatives -->
+<!-- BEGIN: Section7_EvidenceGallery -->
+<section class="py-24 px-4 sm:px-6 lg:px-8 relative" data-purpose="evidence-gallery" id="galereya">
+<div class="max-w-7xl mx-auto space-y-12">
+<div class="text-center max-w-3xl mx-auto space-y-3">
+<div class="inline-block text-xs font-bold uppercase tracking-wider text-sky-600 dark:text-sky-400 bg-sky-100/60 dark:bg-sky-900/40 px-3 py-1 rounded-full">
+            Fotohisobot
+          </div>
+<h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+            Jonli Jarayon Lavhalari va Yutuqlar
+          </h2>
+<p class="text-slate-600 dark:text-slate-300 text-sm sm:text-base">
+            Bizning eng katta yutug'imiz — bir-biriga ishonch bildirgan va bir jamoaga aylangan o'quvchilarimizning baxtli nigohlaridir.
+          </p>
+</div>
+<!-- 3-Card Photographic Gallery Showcase -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Photo 1: Victory & Trophy -->
+<div class="glass-canvas rounded-3xl overflow-hidden border border-sky-300/40 group hover:shadow-2xl transition-all duration-300 flex flex-col">
+<div class="relative aspect-[4/3] overflow-hidden">
+<img alt="High quality authentic shot of high school students celebrating a victory after an intellectual teamwork tournament, students high-fiving and holding a modern glass trophy together" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMHwA5PnBk2VYxLfrI_d1V4XMsCPhPe-4e2sPWiKqqF4uk4pAbffxIYVH5QlGYHpZATJi2DsUVTF6dSd-9_m-nk2alsk5wRKJyPqPUaIyog3dIv34sFzdoz8g7TpzCmBqbclis8K-EMQ6JCiqP2jefCvIl_68wxP0KQMZbvqCujfaf2Lo2EYzOJ_7CKczGCzKH6Lbo5jVeG2-SIXUZtDfQxDDfAfeItT5Ah6-aw1BlKONPTw0BAIq1"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-900/70 via-transparent to-transparent"></div>
+<span class="absolute bottom-3 left-3 bg-white/20 backdrop-blur-md text-white text-xs px-2.5 py-1 rounded-lg font-semibold">
+                G'alaba va Kubok
+              </span>
+</div>
+<div class="p-5 flex-1 flex flex-col justify-between">
+<h3 class="text-base font-bold text-slate-900 dark:text-white mb-1">
+                Jamoaviy G'alaba Quvonchi
+              </h3>
+<p class="text-xs text-slate-600 dark:text-slate-300">
+                Musobaqada birgalikda erishilgan natija va samimiy do'stona quchoqlashuvlar.
+              </p>
+</div>
+</div>
+<!-- Photo 2: Speaking Club Workshop -->
+<div class="glass-canvas rounded-3xl overflow-hidden border border-sky-300/40 group hover:shadow-2xl transition-all duration-300 flex flex-col">
+<div class="relative aspect-[4/3] overflow-hidden">
+<img alt="Realistic dynamic candid shot of Uzbek high school students actively participating in an English speaking club workshop" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCr4bA96s0xZi5Hqu9WpbDpH4QadeE9yeqKxu8pGX243S97rraC4Xz1a3jGk-8fS82zl0LXheHym8YWcIPqLs5ZLDymPS-PelKCbF3KKBpfFz0I1aoNWaN81jL9PoLnDQxE_9wJtQLaL-XoJBvZqjYtStt7TS1uK14cHQjPsbFzkr6h3kTdE8hjvXvNoKTxvmO6NOnR9zFxPBqCMe1DQLd3Z0lclUUR2dpyqKGAThWeKpcC2vf3hQ8R"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-900/70 via-transparent to-transparent"></div>
+<span class="absolute bottom-3 left-3 bg-white/20 backdrop-blur-md text-white text-xs px-2.5 py-1 rounded-lg font-semibold">
+                Speaking Workshop
+              </span>
+</div>
+<div class="p-5 flex-1 flex flex-col justify-between">
+<h3 class="text-base font-bold text-slate-900 dark:text-white mb-1">
+                Ilhomlangan Fikrlar Maydoni
+              </h3>
+<p class="text-xs text-slate-600 dark:text-slate-300">
+                Sinfdoshlarning tengma-teng munozaralari va ingliz tilidagi jonli muloqot mashg'ulotlari.
+              </p>
+</div>
+</div>
+<!-- Photo 3: Trust Games in Courtyard -->
+<div class="glass-canvas rounded-3xl overflow-hidden border border-sky-300/40 group hover:shadow-2xl transition-all duration-300 flex flex-col">
+<div class="relative aspect-[4/3] overflow-hidden">
+<img alt="Realistic energetic scene of teenagers in a high school courtyard engaged in an outdoor team-building trust game" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAlolc3bGLyBTv-TjU2cwYy15f8hsndou2ESXF6ga-Oo0DTtWNYh4m7i7Lni4uLtQ-buJrYhRFqhhUIUQngV9ZCgVuzmd-xylDryGcr9Vf1EtCwf7zeQQjoM6A0LdggYTHxz7gphZpe1oS8ZvlJc48QQZVW7LDdn4-qS8xCyuEVZrLEJei2NAALGwH6ZFQFhRaIp6SHUgjxyo4RxM5yYIH-DWzEyK9lfxq4XGHqa3pAMPMmF2kMuFl"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-900/70 via-transparent to-transparent"></div>
+<span class="absolute bottom-3 left-3 bg-white/20 backdrop-blur-md text-white text-xs px-2.5 py-1 rounded-lg font-semibold">
+                Ishonch Halqasi
+              </span>
+</div>
+<div class="p-5 flex-1 flex flex-col justify-between">
+<h3 class="text-base font-bold text-slate-900 dark:text-white mb-1">
+                Kvest va Ochiq Havodagi Birlashuv
+              </h3>
+<p class="text-xs text-slate-600 dark:text-slate-300">
+                Jumboqlarni faqat qo'llarni mahkam tutgan holda, birgalikda hal qilish amaliyoti.
+              </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Section7_EvidenceGallery -->
+<!-- BEGIN: Section8_SynergyHarmonization -->
+<section class="py-24 px-4 sm:px-6 lg:px-8 border-t border-sky-200/50 dark:border-sky-900/40 relative" data-purpose="synergy-harmonization" id="sinergiya">
+<div class="max-w-7xl mx-auto space-y-12">
+<div class="text-center max-w-3xl mx-auto space-y-3">
+<div class="inline-block text-xs font-bold uppercase tracking-wider text-sky-600 dark:text-sky-400 bg-sky-100/60 dark:bg-sky-900/40 px-3 py-1 rounded-full">
+            Ekotizim Integratsiyasi
+          </div>
+<h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+            Lider Sifatida Barcha Tarmoqlarni Qanday Birlashtiraman?
+          </h2>
+<p class="text-slate-600 dark:text-slate-300 text-sm sm:text-base">
+            Koordinatorlik tarmoqlari bir-biridan mustaqil orollar emas — ular umumiy maqsad sari aylanuvchi uzluksiz tizimdir.
+          </p>
+</div>
+<!-- Interactive Orbital Ecosystem Layout -->
+<div class="relative rounded-3xl glass-canvas p-6 sm:p-12 border border-sky-300/40 overflow-hidden">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+<!-- Left Pair -->
+<div class="space-y-6">
+<div class="p-5 rounded-2xl glass-card-accent border-l-4 border-l-emerald-500">
+<span class="text-xs font-bold uppercase text-emerald-600 dark:text-emerald-400">Ta'lim + Ekologiya</span>
+<h3 class="text-base font-bold text-slate-900 dark:text-white mt-1">Yashil Intellektual Seminarlar</h3>
+<p class="text-xs text-slate-600 dark:text-slate-300 mt-1">
+                  Eko-klublar va biologiya fan to'garaklarini birlashtirib, maktab bog'ida amaliy tajribalar o'tkazish.
+                </p>
+</div>
+<div class="p-5 rounded-2xl glass-card-accent border-l-4 border-l-cyan-500">
+<span class="text-xs font-bold uppercase text-cyan-600 dark:text-cyan-400">IT + Madaniyat</span>
+<h3 class="text-base font-bold text-slate-900 dark:text-white mt-1">Raqamli San'at &amp; Media-Targ'ibot</h3>
+<p class="text-xs text-slate-600 dark:text-slate-300 mt-1">
+                  Ijodiy teatr va musiqiy tadbirlarni yosh IT-koordinatorlar orqali professional tasvirga olish va targ'ib qilish.
+                </p>
+</div>
+</div>
+<!-- Central Hub (Bosh Koordinator) -->
+<div class="text-center p-6 sm:p-8 rounded-3xl bg-gradient-to-b from-sky-500 to-blue-700 text-white shadow-2xl relative group">
+<div class="w-16 h-16 mx-auto rounded-full bg-white/20 flex items-center justify-center text-3xl mb-4 animate-pulse-slow">
+                ⚡
+              </div>
+<span class="inline-block text-[10px] font-bold uppercase tracking-wider bg-white/25 px-2.5 py-0.5 rounded-full mb-2">
+                Markaziy Bog'lovchi Yadro
+              </span>
+<h3 class="text-xl font-extrabold mb-2">Bosh Sardor Roli</h3>
+<p class="text-xs text-sky-100 leading-relaxed">
+                "Ushbu barcha bo'g'inlarni bir-biriga bog'lovchi, ular orasida nizo emas, o'zaro ko'mak va do'stlikni ta'minlovchi doimiy muvofiqlashtiruvchi kuch!"
+              </p>
+</div>
+<!-- Right Pair -->
+<div class="space-y-6">
+<div class="p-5 rounded-2xl glass-card-accent border-l-4 border-l-blue-500">
+<span class="text-xs font-bold uppercase text-blue-600 dark:text-blue-400">Sport + Do'stlik</span>
+<h3 class="text-base font-bold text-slate-900 dark:text-white mt-1">O'zaro Hurmat Sport Ligasi</h3>
+<p class="text-xs text-slate-600 dark:text-slate-300 mt-1">
+                  G'alaba qozonishdan ko'ra halollik va sheriklikni birinchi o'ringa qo'yuvchi mini-futbol va voleybol chempionati.
+                </p>
+</div>
+<div class="p-5 rounded-2xl glass-card-accent border-l-4 border-l-indigo-500">
+<span class="text-xs font-bold uppercase text-indigo-600 dark:text-indigo-400">Ijtimoiy Himoya + Murabbiylik</span>
+<h3 class="text-base font-bold text-slate-900 dark:text-white mt-1">Tengdosh Ko'mak Klasteri</h3>
+<p class="text-xs text-slate-600 dark:text-slate-300 mt-1">
+                  Darslarda qiynalayotgan do'stlarimizga yordam berish va ularni jamoaviy loyihalarga tortish.
+                </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Section8_SynergyHarmonization -->
+<!-- BEGIN: Section9_100DayProgram -->
+<section class="py-24 px-4 sm:px-6 lg:px-8 relative" data-purpose="100-day-roadmap" id="yol-xaritasi">
+<div class="max-w-5xl mx-auto space-y-12">
+<div class="text-center max-w-3xl mx-auto space-y-3">
+<div class="inline-block text-xs font-bold uppercase tracking-wider text-sky-600 dark:text-sky-400 bg-sky-100/60 dark:bg-sky-900/40 px-3 py-1 rounded-full">
+            Yo'l Xaritasi
+          </div>
+<h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+            Rejadan — Katta Harakatga: Mening 100 Kunlik Dasturim
+          </h2>
+<p class="text-slate-600 dark:text-slate-300 text-sm sm:text-base">
+            Aniq muddatlar, o'lchanadigan natijalar va tuman yoshlarini yagona jamoaga aylantiruvchi qadam-baqadam reja.
+          </p>
+</div>
+<!-- Vertical Glowing Timeline -->
+<div class="relative border-l-2 border-sky-400/40 dark:border-sky-600/40 ml-4 sm:ml-8 pl-6 sm:pl-10 space-y-10">
+<!-- Milestone 1 -->
+<div class="relative group">
+<span class="absolute -left-[35px] sm:-left-[51px] top-1.5 w-6 h-6 rounded-full bg-sky-500 ring-4 ring-sky-200 dark:ring-sky-900 flex items-center justify-center text-white text-[10px] font-bold">
+              1
+            </span>
+<div class="glass-canvas p-6 rounded-3xl border border-sky-300/40 group-hover:border-sky-400 transition-colors">
+<span class="inline-block text-xs font-extrabold uppercase text-sky-600 dark:text-sky-400 bg-sky-100/60 dark:bg-sky-900/40 px-2.5 py-0.5 rounded-full mb-2">
+                1 — 25 Kun
+              </span>
+<h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">
+                Muloqot va Diagnostika Bosqichi
+              </h3>
+<p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                Bektemir tumani maktab sardorlari va faol yoshlari bilan shaxsan uchrashish. Har bir maktabdagi real muammolar, bo'shliqlar va o'quvchilar takliflarini o'rganish bo'yicha "Ochiq Eshiklar" so'rovnomasini o'tkazish.
+              </p>
+</div>
+</div>
+<!-- Milestone 2 -->
+<div class="relative group">
+<span class="absolute -left-[35px] sm:-left-[51px] top-1.5 w-6 h-6 rounded-full bg-cyan-500 ring-4 ring-cyan-200 dark:ring-cyan-900 flex items-center justify-center text-white text-[10px] font-bold">
+              2
+            </span>
+<div class="glass-canvas p-6 rounded-3xl border border-sky-300/40 group-hover:border-sky-400 transition-colors">
+<span class="inline-block text-xs font-extrabold uppercase text-cyan-600 dark:text-cyan-400 bg-cyan-100/60 dark:bg-cyan-900/40 px-2.5 py-0.5 rounded-full mb-2">
+                26 — 50 Kun
+              </span>
+<h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">
+                Birinchi Katta Tashabbuslar Starti
+              </h3>
+<p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                Tuman miqyosidagi birinchi "Do'stlik va Jamoaviylik Kvesti" hamda umumiy "District Speaking Club" tarmog'iga rasman start berish. Sinflararo to'siqlarni sindiruvchi dastlabki musobaqalar.
+              </p>
+</div>
+</div>
+<!-- Milestone 3 -->
+<div class="relative group">
+<span class="absolute -left-[35px] sm:-left-[51px] top-1.5 w-6 h-6 rounded-full bg-blue-500 ring-4 ring-blue-200 dark:ring-blue-900 flex items-center justify-center text-white text-[10px] font-bold">
+              3
+            </span>
+<div class="glass-canvas p-6 rounded-3xl border border-sky-300/40 group-hover:border-sky-400 transition-colors">
+<span class="inline-block text-xs font-extrabold uppercase text-blue-600 dark:text-blue-400 bg-blue-100/60 dark:bg-blue-900/40 px-2.5 py-0.5 rounded-full mb-2">
+                51 — 75 Kun
+              </span>
+<h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">
+                Tajriba Ommalashtirish va Forum
+              </h3>
+<p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                Maktablararo koordinatorlar forumi o'tkazish. 348-maktabda muvaffaqiyatli sinovdan o'tgan sinergiya modelini boshqa tuman maktablariga ham joriy qilish va ilg'or tajribalarni mukofotlash.
+              </p>
+</div>
+</div>
+<!-- Milestone 4 -->
+<div class="relative group">
+<span class="absolute -left-[35px] sm:-left-[51px] top-1.5 w-6 h-6 rounded-full bg-indigo-600 ring-4 ring-indigo-200 dark:ring-indigo-900 flex items-center justify-center text-white text-[10px] font-bold">
+              4
+            </span>
+<div class="glass-canvas p-6 rounded-3xl border border-sky-300/40 group-hover:border-sky-400 transition-colors">
+<span class="inline-block text-xs font-extrabold uppercase text-indigo-600 dark:text-indigo-400 bg-indigo-100/60 dark:bg-indigo-900/40 px-2.5 py-0.5 rounded-full mb-2">
+                76 — 100 Kun
+              </span>
+<h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">
+                Yillik Katta Festival va Natijalar E'tirofi
+              </h3>
+<p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                Yillik "Yilning Eng Ahil Maktab Jamoasi" tuman festivalini o'tkazish. Barcha koordinatorliklar bo'yicha sarhisob qilish, yangi liderlar avlodini rag'batlantirish va kelgusi rejani belgilash.
+              </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Section9_100DayProgram -->
+<!-- BEGIN: Section10_ManifestoAndPledge -->
+<section class="py-24 px-4 sm:px-6 lg:px-8 border-t border-sky-200/50 dark:border-sky-900/40 relative" data-purpose="manifesto-and-pledge" id="manifest">
+<div class="max-w-5xl mx-auto">
+<!-- Centerpiece Majestic Glass Card -->
+<div class="relative rounded-3xl p-8 sm:p-14 glass-card-accent border-2 border-sky-400/50 text-center space-y-8 overflow-hidden shadow-2xl">
+<!-- Background ambient ring -->
+<div class="absolute -top-24 -right-24 w-64 h-64 bg-sky-400/20 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-24 -left-24 w-64 h-64 bg-blue-600/20 rounded-full blur-3xl pointer-events-none"></div>
+<!-- Eyebrow -->
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-sky-500/10 text-sky-600 dark:text-sky-300 font-bold text-xs uppercase tracking-widest border border-sky-400/30">
+            Yakuniy Manifest
+          </div>
+<!-- The Great Quote Banner -->
+<blockquote class="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 dark:text-white leading-relaxed max-w-3xl mx-auto">
+            «Haqiqiy lider boshqalardan ustun turadigan shaxs emas, balki atrofdagilarni birlashtirib, har bir insonning qadrini oshiradigan insondir!»
+          </blockquote>
+<!-- Personal Pledge -->
+<p class="text-sm sm:text-base text-slate-600 dark:text-slate-300 max-w-2xl mx-auto leading-relaxed">
+            Men — <strong class="text-slate-900 dark:text-white font-bold">Abdumannonov Bekmurod</strong>, Bektemir tumani o'quvchilarini bitta katta, ahil va yengilmas jamoaga aylantirishga, har biringizning samimiy do'stingiz va suyanchingiz bo'lishga tayyorman!
+          </p>
+<!-- Interactive Badges with Ripple Hover Effect -->
+<div class="flex flex-wrap items-center justify-center gap-3 pt-2">
+<span class="px-4 py-2 rounded-xl glass-canvas border border-sky-400/40 text-xs font-bold text-sky-700 dark:text-sky-300 hover:scale-110 hover:shadow-lg hover:shadow-sky-500/20 transition-all cursor-default">
+              ✨ Jamoaviy Ruh
+            </span>
+<span class="px-4 py-2 rounded-xl glass-canvas border border-sky-400/40 text-xs font-bold text-sky-700 dark:text-sky-300 hover:scale-110 hover:shadow-lg hover:shadow-sky-500/20 transition-all cursor-default">
+              🤝 Do'stlik &amp; Ishonch
+            </span>
+<span class="px-4 py-2 rounded-xl glass-canvas border border-sky-400/40 text-xs font-bold text-sky-700 dark:text-sky-300 hover:scale-110 hover:shadow-lg hover:shadow-sky-500/20 transition-all cursor-default">
+              🗣️ Speaking Club
+            </span>
+<span class="px-4 py-2 rounded-xl glass-canvas border border-sky-400/40 text-xs font-bold text-sky-700 dark:text-sky-300 hover:scale-110 hover:shadow-lg hover:shadow-sky-500/20 transition-all cursor-default">
+              🌟 Kelajak Lideri
+            </span>
+</div>
+<!-- Call to Action Buttons -->
+<div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
+<button class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-sky-500 via-blue-600 to-sky-700 hover:from-sky-600 hover:to-blue-800 text-white font-bold text-sm shadow-xl shadow-sky-500/30 hover:scale-105 active:scale-95 transition-all" id="joinModalBtn">
+              Birlashish va Loyihada Ishtirok Etish
+            </button>
+<button class="w-full sm:w-auto px-8 py-4 rounded-xl glass-canvas border border-sky-400/50 text-slate-800 dark:text-slate-100 hover:bg-sky-100 dark:hover:bg-slate-800 font-bold text-sm transition-all hover:scale-105 active:scale-95" id="suggestIdeaBtn">
+              G'oya Taklif Qilish
+            </button>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Section10_ManifestoAndPledge -->
+</main>
+<!-- BEGIN: MinimalFooter -->
+<footer class="py-8 px-4 text-center border-t border-sky-200/40 dark:border-sky-900/30 text-xs text-slate-500 dark:text-slate-400">
+<div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+<p>© 2025 Kelajak Lideri — Abdumannonov Bekmurod. 348-maktab &amp; Bektemir tumani.</p>
+<div class="flex items-center gap-4">
+<span>Yakka Kurashdan — Yengilmas Jamoaga</span>
+</div>
+</div>
+</footer>
+<!-- END: MinimalFooter -->
+<!-- BEGIN: FeedbackModal -->
+<!-- Interactive Modal Dialog for Suggestion / Join -->
+<div aria-labelledby="modalTitle" aria-modal="true" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-slate-950/60 backdrop-blur-sm" id="actionModal" role="dialog">
+<div class="relative w-full max-w-lg rounded-3xl glass-canvas p-6 sm:p-8 border border-sky-400/50 shadow-2xl space-y-6">
+<div class="flex items-center justify-between">
+<h3 class="text-xl font-bold text-slate-900 dark:text-white" id="modalTitle">
+          Jamoaga Qo'shilish / G'oya Yuborish
+        </h3>
+<button aria-label="Yopish" class="w-8 h-8 rounded-full flex items-center justify-center text-slate-500 hover:text-slate-900 dark:hover:text-white transition-colors" id="closeModalBtn">
+          ✕
+        </button>
+</div>
+<p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300">
+        Bekmurod va uning koordinatorlar jamoasiga o'z taklifingizni qoldiring yoki tuman Speaking Club loyihasiga qo'shiling.
+      </p>
+<form class="space-y-4" id="feedbackForm">
+<div>
+<label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1" for="studentName">Ism va Familiyangiz</label>
+<input class="w-full text-sm rounded-xl border border-sky-300/60 dark:border-sky-800 bg-white/80 dark:bg-slate-900/80 px-3.5 py-2.5 focus:outline-none focus:ring-2 focus:ring-sky-500 text-slate-900 dark:text-white" id="studentName" placeholder="Masalan: Jasur Aliyev" required="" type="text"/>
+</div>
+<div>
+<label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1" for="studentSchool">Maktabingiz raqami / Sinfingiz</label>
+<input class="w-full text-sm rounded-xl border border-sky-300/60 dark:border-sky-800 bg-white/80 dark:bg-slate-900/80 px-3.5 py-2.5 focus:outline-none focus:ring-2 focus:ring-sky-500 text-slate-900 dark:text-white" id="studentSchool" placeholder="Masalan: 348-maktab, 9-A sinf" required="" type="text"/>
+</div>
+<div>
+<label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1" for="studentMessage">Sizning G'oyangiz yoki Taklifingiz</label>
+<textarea class="w-full text-sm rounded-xl border border-sky-300/60 dark:border-sky-800 bg-white/80 dark:bg-slate-900/80 px-3.5 py-2.5 focus:outline-none focus:ring-2 focus:ring-sky-500 text-slate-900 dark:text-white" id="studentMessage" placeholder="Qaysi loyihada ishtirok etmoqchisiz yoki qanday yangi tashabbusingiz bor?" required="" rows="3"></textarea>
+</div>
+<button class="w-full py-3 rounded-xl bg-sky-600 hover:bg-sky-700 text-white font-bold text-sm shadow-md transition-all" type="submit">
+          Yuborish va Birlashish
+        </button>
+</form>
+<div class="hidden p-4 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 text-center text-xs font-bold" id="formSuccessMessage">
+        Rahmat! Sizning tashabbusingiz qabul qilindi. Tez orada Bekmurod jamoasi siz bilan bog'lanadi!
+      </div>
+</div>
+</div>
+<!-- END: FeedbackModal -->
+<!-- BEGIN: InteractiveScripts -->
+<!-- Dark / Light Theme Switching Logic -->
+<script data-purpose="theme-toggle">
+    const themeToggleBtn = document.getElementById('themeToggleBtn');
+    
+    // Check initial user preference or saved preference
+    if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+
+    themeToggleBtn.addEventListener('click', () => {
+      if (document.documentElement.classList.contains('dark')) {
+        document.documentElement.classList.remove('dark');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.classList.add('dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    });
+  </script>
+<!-- Scroll Progress & Quick Jump Active State Sync -->
+<script data-purpose="scroll-tracking">
+    window.addEventListener('scroll', () => {
+      const winScroll = document.documentElement.scrollTop || document.body.scrollTop;
+      const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrolled = (winScroll / height) * 100;
+      
+      const progressBar = document.getElementById('scrollProgressBar');
+      if (progressBar) {
+        progressBar.style.width = scrolled + '%';
+      }
+
+      // Update Nav active indicator
+      const sections = ['hero', 'missiya', 'isbotlar', 'falsafa', 'intellekt', 'tashabbus', 'galereya', 'sinergiya', 'yol-xaritasi', 'manifest'];
+      let currentSection = 'hero';
+
+      sections.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) {
+          const rect = el.getBoundingClientRect();
+          if (rect.top <= 200 && rect.bottom >= 200) {
+            currentSection = id;
+          }
+        }
+      });
+
+      document.querySelectorAll('.nav-jump-btn').forEach(btn => {
+        if (btn.getAttribute('data-section') === currentSection) {
+          btn.classList.add('nav-pill-active');
+        } else {
+          btn.classList.remove('nav-pill-active');
+        }
+      });
+    });
+  </script>
+<!-- Interactive Modal Handling -->
+<script data-purpose="modal-handlers">
+    const joinModalBtn = document.getElementById('joinModalBtn');
+    const suggestIdeaBtn = document.getElementById('suggestIdeaBtn');
+    const actionModal = document.getElementById('actionModal');
+    const closeModalBtn = document.getElementById('closeModalBtn');
+    const feedbackForm = document.getElementById('feedbackForm');
+    const formSuccessMessage = document.getElementById('formSuccessMessage');
+
+    function openModal() {
+      actionModal.classList.remove('hidden');
+      actionModal.classList.add('flex');
+    }
+
+    function closeModal() {
+      actionModal.classList.add('hidden');
+      actionModal.classList.remove('flex');
+    }
+
+    if (joinModalBtn) joinModalBtn.addEventListener('click', openModal);
+    if (suggestIdeaBtn) suggestIdeaBtn.addEventListener('click', openModal);
+    if (closeModalBtn) closeModalBtn.addEventListener('click', closeModal);
+
+    // Close on backdrop click
+    window.addEventListener('click', (e) => {
+      if (e.target === actionModal) closeModal();
+    });
+
+    // Form Submission Simulated Handler
+    if (feedbackForm) {
+      feedbackForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        feedbackForm.classList.add('hidden');
+        formSuccessMessage.classList.remove('hidden');
+        setTimeout(() => {
+          closeModal();
+          feedbackForm.reset();
+          feedbackForm.classList.remove('hidden');
+          formSuccessMessage.classList.add('hidden');
+        }, 3000);
+      });
+    }
+  </script>
+<!-- END: InteractiveScripts -->
+</body></html>
